@@ -58,8 +58,6 @@ PasswordAuthentication no
 
 ---
 
-## 8. VERIFICATION RESULTS
-**Pre-hardening:** 
 
 
 
