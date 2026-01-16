@@ -42,6 +42,24 @@ sudo passwd intern
 **Command:** 'sudo pacman -Syu'
 **Result:** All packages updated, security patches applied
 
+---
+
+## 6. PROCESS MONITORING
+**Command:** 'ps aux | grep -v root'
+**Result:** Reviewed non-root processes, no zombie processes
+
+---
+
+## 7. SSH HARDENING
+**/etc/ssh/sshd_config changes:**
+PermitRootLogin no
+PasswordAuthentication no
+**Result:** SSH key authentication only, root login prohibited
+
+---
+
+## 8. VERIFICATION RESULTS
+**Pre-hardening:** 
 
 
 
